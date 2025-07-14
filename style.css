@@ -1,0 +1,90 @@
+/* Base Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Main Title */
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b0453d;
+}
+
+/* Section Headings */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #7a2e1e;
+  border-bottom: 2px solid #b0453d;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #b0453d;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Navigation Link */
+a {
+  display: inline-block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #b0453d;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+/* Blockquotes for Reviews */
+blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background-color: #f5e6e0;
+  border-left: 5px solid #b0453d;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
